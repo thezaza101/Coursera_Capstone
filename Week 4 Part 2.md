@@ -5,7 +5,7 @@ This project will utilize data from several sources:
 2. Census data from Statistics Canada https://www.statcan.gc.ca/
 3. Current business/venue data from https://foursquare.com/
 
-The geospatial and census data will be combined to form a larger dataset, the data will be joined by post code. Finally the FourSquare API will be used to identify restaurants within a 10KM radius. The responses from FourSquare will be cached due to rate limitations on the API.
+The geospatial and census data will be combined to form a larger dataset, the data will be joined by post code. Finally the FourSquare API will be used to identify restaurants within a 30KM radius. The responses from FourSquare will be cached due to rate limitations on the API.
 
 Once all of the data has been gatherd, analysis can be preformed to identify the best types of cuisines for a new business to sell.
 
